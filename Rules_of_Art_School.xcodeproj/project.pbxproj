@@ -25,7 +25,6 @@
 		0E65FAB51B0536FE00A9ECE8 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FAAB1B0536FE00A9ECE8 /* ofxSliderGroup.cpp */; };
 		0E65FAB61B0536FE00A9ECE8 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FAAD1B0536FE00A9ECE8 /* ofxToggle.cpp */; };
 		0ECB7E021B090DE900844FBD /* About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC01B090DE900844FBD /* About.cpp */; };
-		0ECB7E031B090DE900844FBD /* Extra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC31B090DE900844FBD /* Extra.cpp */; };
 		0ECB7E041B090DE900844FBD /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC51B090DE900844FBD /* baseScene.cpp */; };
 		0ECB7E051B090DE900844FBD /* Extra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC81B090DE900844FBD /* Extra.cpp */; };
 		0ECB7E061B090DE900844FBD /* Intro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DCB1B090DE900844FBD /* Intro.cpp */; };
@@ -38,7 +37,6 @@
 		0ECB7E0D1B090DE900844FBD /* RuleFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DDC1B090DE900844FBD /* RuleFour.cpp */; };
 		0ECB7E0E1B090DE900844FBD /* RuleNine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE11B090DE900844FBD /* RuleNine.cpp */; };
 		0ECB7E0F1B090DE900844FBD /* RuleOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE41B090DE900844FBD /* RuleOne.cpp */; };
-		0ECB7E101B090DE900844FBD /* RuleEight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE81B090DE900844FBD /* RuleEight.cpp */; };
 		0ECB7E111B090DE900844FBD /* RuleSeven.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */; };
 		0ECB7E121B090DE900844FBD /* particleSix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DED1B090DE900844FBD /* particleSix.cpp */; };
 		0ECB7E131B090DE900844FBD /* RuleSix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DEF1B090DE900844FBD /* RuleSix.cpp */; };
@@ -221,8 +219,6 @@
 		0ECB7DBE1B090DE900844FBD /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
 		0ECB7DC01B090DE900844FBD /* About.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = About.cpp; sourceTree = "<group>"; };
 		0ECB7DC11B090DE900844FBD /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
-		0ECB7DC31B090DE900844FBD /* Extra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extra.cpp; sourceTree = "<group>"; };
-		0ECB7DC41B090DE900844FBD /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
 		0ECB7DC51B090DE900844FBD /* baseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseScene.cpp; sourceTree = "<group>"; };
 		0ECB7DC61B090DE900844FBD /* baseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseScene.h; sourceTree = "<group>"; };
 		0ECB7DC81B090DE900844FBD /* Extra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extra.cpp; sourceTree = "<group>"; };
@@ -249,8 +245,6 @@
 		0ECB7DE21B090DE900844FBD /* RuleNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleNine.h; sourceTree = "<group>"; };
 		0ECB7DE41B090DE900844FBD /* RuleOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleOne.cpp; sourceTree = "<group>"; };
 		0ECB7DE51B090DE900844FBD /* RuleOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleOne.h; sourceTree = "<group>"; };
-		0ECB7DE81B090DE900844FBD /* RuleEight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleEight.cpp; sourceTree = "<group>"; };
-		0ECB7DE91B090DE900844FBD /* RuleEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEight.h; sourceTree = "<group>"; };
 		0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleSeven.cpp; sourceTree = "<group>"; };
 		0ECB7DEB1B090DE900844FBD /* RuleSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleSeven.h; sourceTree = "<group>"; };
 		0ECB7DED1B090DE900844FBD /* particleSix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particleSix.cpp; sourceTree = "<group>"; };
@@ -654,18 +648,8 @@
 			children = (
 				0ECB7DC01B090DE900844FBD /* About.cpp */,
 				0ECB7DC11B090DE900844FBD /* About.h */,
-				0ECB7DC21B090DE900844FBD /* Extra */,
 			);
 			path = About;
-			sourceTree = "<group>";
-		};
-		0ECB7DC21B090DE900844FBD /* Extra */ = {
-			isa = PBXGroup;
-			children = (
-				0ECB7DC31B090DE900844FBD /* Extra.cpp */,
-				0ECB7DC41B090DE900844FBD /* Extra.h */,
-			);
-			path = Extra;
 			sourceTree = "<group>";
 		};
 		0ECB7DC71B090DE900844FBD /* Extra */ = {
@@ -739,20 +723,10 @@
 		0ECB7DE61B090DE900844FBD /* RuleSeven */ = {
 			isa = PBXGroup;
 			children = (
-				0ECB7DE71B090DE900844FBD /* RuleEight */,
 				0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */,
 				0ECB7DEB1B090DE900844FBD /* RuleSeven.h */,
 			);
 			path = RuleSeven;
-			sourceTree = "<group>";
-		};
-		0ECB7DE71B090DE900844FBD /* RuleEight */ = {
-			isa = PBXGroup;
-			children = (
-				0ECB7DE81B090DE900844FBD /* RuleEight.cpp */,
-				0ECB7DE91B090DE900844FBD /* RuleEight.h */,
-			);
-			path = RuleEight;
 			sourceTree = "<group>";
 		};
 		0ECB7DEC1B090DE900844FBD /* RuleSix */ = {
@@ -1018,7 +992,6 @@
 				0E65FA901B05369100A9ECE8 /* ofxCvContourFinder.cpp in Sources */,
 				0ECB7E021B090DE900844FBD /* About.cpp in Sources */,
 				0ECB7E0B1B090DE900844FBD /* particleFive.cpp in Sources */,
-				0ECB7E101B090DE900844FBD /* RuleEight.cpp in Sources */,
 				0E65FA921B05369100A9ECE8 /* ofxCvGrayscaleImage.cpp in Sources */,
 				0E65FA951B05369100A9ECE8 /* ofxCvShortImage.cpp in Sources */,
 				0ECB7E091B090DE900844FBD /* ofApp.cpp in Sources */,
@@ -1029,7 +1002,6 @@
 				0ECB7E081B090DE900844FBD /* Nav.cpp in Sources */,
 				0E65FAB31B0536FE00A9ECE8 /* ofxPanel.cpp in Sources */,
 				0ECB7E181B090DE900844FBD /* particleRuleTwo.cpp in Sources */,
-				0ECB7E031B090DE900844FBD /* Extra.cpp in Sources */,
 				0E65FAB11B0536FE00A9ECE8 /* ofxGuiGroup.cpp in Sources */,
 				0ECB7E0E1B090DE900844FBD /* RuleNine.cpp in Sources */,
 				0ECB7E0D1B090DE900844FBD /* RuleFour.cpp in Sources */,

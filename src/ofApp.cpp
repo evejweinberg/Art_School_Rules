@@ -21,7 +21,7 @@ void ofApp::setup(){
     
     currentScene = 0;
     
-    for (int i = 0; i < 3; i++){
+    for (int i = 0; i < 13; i++){
         scenes[i]->setup();
     }
     
