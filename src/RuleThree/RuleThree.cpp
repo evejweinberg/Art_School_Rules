@@ -2,6 +2,8 @@
 
 void RuleThree::reset(){
     line.clear();
+    myLines.clear();
+
     
     
     for(int i=0; i<NSTUDENTS; i++){ // i've said in .h that NSTUDENTS is 100

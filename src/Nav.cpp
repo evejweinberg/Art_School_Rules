@@ -31,6 +31,7 @@ void Nav::setup(){
 
 //--------------------------------------------------------------
 void Nav::update(){
+    
 
 }
 
@@ -107,19 +108,43 @@ void Nav::mouseDragged(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
-void Nav::mousePressed(int x, int y, int button){
+
+int Nav::check_mouse_nav(int x, int y){
+    int cur_scene=-1;
+    cout<<"hey mouse was clicked"<<endl;
     for (int navcirc = 0; navcirc < circlesTotal; navcirc++) {
         pos.set(ofGetWidth()-37,-100+ofGetHeight()-50*navcirc);
         
         if (pos.distance(ofPoint(x,y)) < radius){
-            setActiveScene = circlesTotal-navcirc-1;
+            currentScene = circlesTotal-navcirc-1;
+            cur_scene=currentScene;
             ballclicked = navcirc;
+            cout<<ballclicked<<endl;
             
             
             
         }
     }
+      return cur_scene;
+}
+
+void Nav::mousePressed(int x, int y, int button){
+    cout<<"hey mouse was clicked"<<endl;
+    for (int navcirc = 0; navcirc < circlesTotal; navcirc++) {
+        pos.set(ofGetWidth()-37,-100+ofGetHeight()-50*navcirc);
+        
+        if (pos.distance(ofPoint(x,y)) < radius){
+            currentScene = circlesTotal-navcirc-1;
+           
+            ballclicked = navcirc;
+             cout<<ballclicked<<endl;
+          
+
+       
+        
+        }
+    }
+//    return currentScene;
 }
 
 //--------------------------------------------------------------

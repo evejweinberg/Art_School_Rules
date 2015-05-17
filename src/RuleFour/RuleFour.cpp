@@ -2,6 +2,12 @@
 
 void RuleFour::reset(){
     allBallsDropping.clear();
+    allBallsDropping.resize(10);
+    for (int i = 0; i < allBallsDropping.size(); i++) {
+        allBallsDropping[i].artwork = &LikeThis[(int)ofRandom(ARTWORKTOTAL)]; //choose random artwork, from the pointer in the balldrop header. The ball has a pointer to an image in the LikeThisArray
+        allBallsDropping[i].col = colors[(int)ofRandom(9)]; //grabbing the colors
+        allBallsDropping[i].pos = ofPoint(ofRandom(0,ofGetWidth()),ofRandom(0, ofGetHeight())); //first time we call the balls
+    }
 }
 
 //--------------------------------------------------------------

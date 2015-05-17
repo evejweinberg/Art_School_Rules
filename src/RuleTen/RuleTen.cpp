@@ -3,7 +3,26 @@
 void RuleTen::reset(){
     float x=ofGetWidth()-500;       // set X and Y outside of the for loop (see above)
     float y = 140;
-//    LineWeight.set(2);
+    
+    
+//    for (int i = 0; i < 8; i++){
+//        ofSetLineWidth(LineWeight[i]);
+//    }
+    
+//    string name;
+//    ofxPanel WAVE;
+    
+    for (int i = 0; i < 8; i++){
+     
+       
+        radius[i].set("Radius Size", ofRandom(20,200), 20, 300);
+        amplitude[i].set("Amplitude",0.01f, 0.01f, 0.2f);
+        peaks[i].set("Number of Peaks",50, 0, 100);
+        noiseModFactor[i].set("Noise", 0.0, 0.0, 5.0);
+        velocity[i].set("Velocity", 0.1f, 0.01f, 1.0f);
+        LineWeight[i].set("Line Weight", 2, 2, 20);
+            }
+
     
 }
 

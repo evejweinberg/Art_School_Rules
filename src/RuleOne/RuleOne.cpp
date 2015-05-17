@@ -1,6 +1,7 @@
 #include "RuleOne.h"
 
 void RuleOne::reset(){
+     moveZach = 400;
     
 }
 
@@ -27,8 +28,7 @@ void RuleOne::setup(){
     blue.setHsb(133,138,214);
     pink.setHsb(4,43,237);
    
-
-
+   moveZach = 400;
 
 }
 
@@ -37,7 +37,7 @@ void RuleOne::setup(){
 
 //--------------------------------------------------------------
 void RuleOne::update(){
-    Zach.draw(300,300,484,430);
+//    Zach.draw(300,300,484,430);
 
 }
 
@@ -101,13 +101,11 @@ void RuleOne::draw(){
 
     if (ofGetMousePressed() && ofGetMouseX()>100 && ofGetMouseX()<ofGetWidth()-305){
         moveZach = ofGetMouseX();
-    }
-    
-    Zach.draw(moveZach-220,434,484,430);
-    
- 
-    
+         }
 
+    Zach.draw(moveZach-220,434,484,430);
+
+   
 
 }
 

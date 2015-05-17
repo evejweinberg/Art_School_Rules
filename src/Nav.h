@@ -19,6 +19,7 @@ class Nav : public baseScene {
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    int check_mouse_nav(int x,int y);
     
     ofColor colors[11];
     
@@ -43,6 +44,9 @@ class Nav : public baseScene {
     int setActiveScene =0;
     int circlesTotal = 13;
     int ballclicked =12;
+     int currentScene;
+    
+    ofEvent<int> onNavClicked;
    
 		
 };

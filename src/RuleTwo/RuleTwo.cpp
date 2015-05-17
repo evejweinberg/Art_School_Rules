@@ -7,7 +7,7 @@ void RuleTwo::reset(){
         opactity[i] = 0.1;
     }
     
-    
+       particleRuleTwos[0].setInitialCondition(850,700,0,0);
 
 //    
 //    particleRuleTwo myparticleRuleTwo;

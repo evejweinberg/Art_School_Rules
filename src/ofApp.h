@@ -33,11 +33,15 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+     void enableScene(int index);
     
+  
     
     baseScene  * scenes[13];
     int currentScene;
     
+  
+    int _scene;
     Nav nav;
 		
 };

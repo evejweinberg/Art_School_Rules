@@ -26,10 +26,7 @@ void ofApp::setup(){
     }
     
     nav.setup();
-
 }
-
-
 
 //--------------------------------------------------------------
 void ofApp::update(){
@@ -46,6 +43,12 @@ void ofApp::draw(){
     scenes[currentScene]->draw();
     ofPopStyle();
     nav.draw();
+    
+}
+
+void ofApp::enableScene(int index) {
+    
+       
     
 }
 
@@ -80,8 +83,16 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-        nav.mousePressed(x,y,button);
+    
     scenes[currentScene]->mousePressed(x, y, button);
+
+    
+   int cur_scene= nav.check_mouse_nav(x,y);
+    if(cur_scene>-1){
+        currentScene=cur_scene;
+        scenes[currentScene]->reset();
+
+    }
 }
 
 //--------------------------------------------------------------
