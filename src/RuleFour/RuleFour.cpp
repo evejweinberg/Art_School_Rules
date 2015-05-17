@@ -1,7 +1,7 @@
 #include "RuleFour.h"
 
 void RuleFour::reset(){
-//   allBallsDropping.clear;
+    allBallsDropping.clear();
 }
 
 //--------------------------------------------------------------
@@ -45,19 +45,10 @@ void RuleFour::setup(){
 
 }
 
-void RuleFour::enable(){
-    enabled = true;
-}
-
-void RuleFour::disable(){
-    enabled = false;
-    
-    
-    
-}
 
 //--------------------------------------------------------------
 void RuleFour::update(){
+    
 
     ofSetCircleResolution(50);
 
@@ -68,6 +59,7 @@ void RuleFour::update(){
         
 
     }
+
 
 
 }

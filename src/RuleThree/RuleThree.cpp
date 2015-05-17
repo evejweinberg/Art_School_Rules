@@ -3,11 +3,53 @@
 void RuleThree::reset(){
     line.clear();
     
+    
+    for(int i=0; i<NSTUDENTS; i++){ // i've said in .h that NSTUDENTS is 100
+        
+        
+        float radius = ofRandom(700,2500);      // <---- pick a random distance away from the center
+        float angle = ofRandom(0, TWO_PI);     // <---- pick a random angle
+        float centerX = ofGetWidth()/2;    // <----- this is the center of the circle x
+        float centerY = ofGetHeight()/2;   // <------ also, center of the circle y
+        float x = centerX + radius * cos(angle);   // <---- this is using the circle formula we discussed in class
+        float y = centerY + radius * sin(angle);
+        
+        string fileName;
+        float dy =  ofGetHeight()/2 - y;
+        float dx = ofGetWidth()/2 - x;
+        float angle2 = atan2(dy, dx ) * RAD_TO_DEG;
+        
+        cout << angle2 << endl;
+        
+        
+        if (angle2 >= 0 && angle2 < 40){
+            fileName = "studentD.png";
+        } else if (angle2 >= 40 && angle2 < 130){
+            fileName = "studentF.png";
+        } else if (angle2 >= 130 && angle2 < 180){
+            fileName = "studentC.png";
+        } else if (angle2 < 0 && angle2 >= -60){
+            fileName = "studentB.png";
+        } else if (angle2 < -60 && angle2 >= -120){ // -60  --120
+            fileName = "studentB.png";
+        } else if (angle2 < -120 && angle2 >= -180){
+            fileName = "studentE.png";
+        }
+        myStudents[i].setup(x,y, fileName);   // <----- now, this is where they should be setup....
+        
+        
+        myStudents[i].stopPoint.x = 645 + myStudents[i].varDistance * cos(angle);
+        myStudents[i].stopPoint.y = 366 + myStudents[i].varDistance * sin(angle);
+        
+        
+    }
+
+    
 }
 //--------------------------------------------------------------
 void RuleThree::setup(){
     
-    line.clear();
+  
     
 
     //----------------------style sheets--------------------
@@ -66,56 +108,6 @@ void RuleThree::setup(){
 
     }
 
-}
-
-void RuleThree::disable() {
-    enabled = false;
-    for(int i=0; i<NSTUDENTS; i++){ // i've said in .h that NSTUDENTS is 100
-        
-        
-        float radius = ofRandom(700,2500);      // <---- pick a random distance away from the center
-        float angle = ofRandom(0, TWO_PI);     // <---- pick a random angle
-        float centerX = ofGetWidth()/2;    // <----- this is the center of the circle x
-        float centerY = ofGetHeight()/2;   // <------ also, center of the circle y
-        float x = centerX + radius * cos(angle);   // <---- this is using the circle formula we discussed in class
-        float y = centerY + radius * sin(angle);
-        
-        string fileName;
-        float dy =  ofGetHeight()/2 - y;
-        float dx = ofGetWidth()/2 - x;
-        float angle2 = atan2(dy, dx ) * RAD_TO_DEG;
-        
-        cout << angle2 << endl;
-        
-        
-        if (angle2 >= 0 && angle2 < 40){
-            fileName = "studentD.png";
-        } else if (angle2 >= 40 && angle2 < 130){
-            fileName = "studentF.png";
-        } else if (angle2 >= 130 && angle2 < 180){
-            fileName = "studentC.png";
-        } else if (angle2 < 0 && angle2 >= -60){
-            fileName = "studentB.png";
-        } else if (angle2 < -60 && angle2 >= -120){ // -60  --120
-            fileName = "studentB.png";
-        } else if (angle2 < -120 && angle2 >= -180){
-            fileName = "studentE.png";
-        }
-        myStudents[i].setup(x,y, fileName);   // <----- now, this is where they should be setup....
-        
-        
-        myStudents[i].stopPoint.x = 645 + myStudents[i].varDistance * cos(angle);
-        myStudents[i].stopPoint.y = 366 + myStudents[i].varDistance * sin(angle);
-        
-        
-    }
-
-    
-}
-
-void RuleThree::enable() {
-    enabled = true;
-    
 }
 
 

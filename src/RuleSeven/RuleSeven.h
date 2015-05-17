@@ -64,6 +64,7 @@ class RuleSeven : public baseScene{
     ofTrueTypeFont 	IntroBlackLrg;
     char ThereisOnly[255];
     char WORK [255];
+    char RuleIs [255];
     ofColor salmon;
     ofColor tan;
     ofColor yellow;
@@ -73,9 +74,8 @@ class RuleSeven : public baseScene{
     ofColor blue;
     ofColor pink;
     
-    ofImage arrow;
-    ofImage RuleSevenBG;
-    ofImage ifyouwork;
+ 
+    ofImage ifyouwork, Inst;
     ofImage allofthetime;
     ofImage itspeople, tosomething, whoeventually, itwilllead;
     

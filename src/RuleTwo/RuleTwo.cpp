@@ -3,6 +3,19 @@
 
 void RuleTwo::reset(){
     
+    for (int i = 0; i < 7; i++){
+        opactity[i] = 0.1;
+    }
+    
+    
+
+//    
+//    particleRuleTwo myparticleRuleTwo;
+//    myparticleRuleTwo.setInitialCondition(850,700,0,0);
+//    //why doenst this work?
+    
+    
+    
     
 }
 
@@ -71,18 +84,7 @@ void RuleTwo::setup(){
 
 }
 
-void RuleTwo::disable() {
-    enabled = false;
-    for (int i = 0; i < 7; i++){
-         opactity[i] = 0.1;
-    }
-    
-}
 
-void RuleTwo::enable() {
-    enabled = true;
-    
-}
 
 //--------------------------------------------------------------
 void RuleTwo::update(){

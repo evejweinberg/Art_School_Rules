@@ -1,5 +1,9 @@
 #include "RuleOne.h"
 
+void RuleOne::reset(){
+    
+}
+
 //--------------------------------------------------------------
 void RuleOne::setup(){
     
@@ -28,16 +32,7 @@ void RuleOne::setup(){
 
 }
 
-void RuleOne::enable(){
-    enabled = true;
-    
 
-}
-
-void RuleOne::disable(){
-    enabled = false;
-    
-}
 
 
 //--------------------------------------------------------------
