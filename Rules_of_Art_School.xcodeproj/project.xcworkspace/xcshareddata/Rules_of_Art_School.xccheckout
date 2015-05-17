@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>06735ABD-DE6B-4C94-A3FB-AE4026421937</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Rules_of_Art_School</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D4604D107C8B0628D481999E389D2984C0EED500</key>
-		<string>https://github.com/evejweinberg/SFPC</string>
+		<key>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</key>
+		<string>https://github.com/evejweinberg/Art_School_Rules.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Rules_of_Art_School/Rules_of_Art_School.xcodeproj/project.xcworkspace</string>
+	<string>Rules_of_Art_School.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D4604D107C8B0628D481999E389D2984C0EED500</key>
-		<string>../../..</string>
+		<key>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/evejweinberg/SFPC</string>
+	<string>https://github.com/evejweinberg/Art_School_Rules.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D4604D107C8B0628D481999E389D2984C0EED500</string>
+	<string>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D4604D107C8B0628D481999E389D2984C0EED500</string>
+			<string>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SFPC</string>
+			<string>Art_School_Rules</string>
 		</dict>
 	</array>
 </dict>
