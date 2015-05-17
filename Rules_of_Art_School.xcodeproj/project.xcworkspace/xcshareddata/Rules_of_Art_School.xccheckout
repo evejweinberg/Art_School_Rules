@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>06735ABD-DE6B-4C94-A3FB-AE4026421937</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Rules_of_Art_School</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</key>
 		<string>https://github.com/evejweinberg/Art_School_Rules.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Rules_of_Art_School.xcodeproj/project.xcworkspace</string>
+	<string>Rules_of_Art_School.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>438C6BD03B76081C92C4AE5E09054B1B2CC170F8</key>

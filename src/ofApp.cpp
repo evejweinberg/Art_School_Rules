@@ -16,7 +16,7 @@ void ofApp::setup(){
     scenes[8] = new RuleEight();
     scenes[9] = new RuleNine();
     scenes[10] = new RuleTen();
-    scenes[11] = new Extra);
+    scenes[11] = new Extra();
     scenes[12] = new About();
     
     currentScene = 0;
