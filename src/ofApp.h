@@ -35,9 +35,8 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     
-    void enableScene(int index);
-    
-    vector<baseScene *>  scenes;
+    baseScene  * scenes[13];
+    int currentScene;
     
     Nav nav;
 		

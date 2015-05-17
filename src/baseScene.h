@@ -24,12 +24,7 @@ public:
     virtual void dragEvent(ofDragInfo dragInfo);
     virtual void gotMessage(ofMessage msg);
     
-    
-    virtual void enable()  {enabled=true;};
-    virtual void disable() {enabled=false;};
-    
-    
-    bool isEnabled() {return enabled;};
+    virtual void reset(){};
     
 protected:
     bool enabled = false;
