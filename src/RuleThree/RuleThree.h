@@ -11,6 +11,7 @@ class RuleThree : public baseScene{
 		void setup();
 		void update();
 		void draw();
+    void reset();
     
         void disable();
         void enable ();

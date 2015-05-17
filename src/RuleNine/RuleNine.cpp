@@ -1,6 +1,10 @@
 #include "RuleNine.h"
 #include "ofxImageSequence.h"
 
+void RuleNine::reset(){
+    
+}
+
 //--------------------------------------------------------------
 void RuleNine::setup(){
     

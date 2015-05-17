@@ -42,41 +42,51 @@ void ofApp::update(){
 
 //-----draw the scenes---------------------------------------------------------
 void ofApp::draw(){
-    
+    ofPushStyle();
     scenes[currentScene]->draw();
+    ofPopStyle();
     nav.draw();
     
 }
 
 //----------for all numbers check if that number is pressed, if it is then enable the scene--------------------------------------------
 void ofApp::keyPressed(int key){
-    currentScene++;
-    currentScene %= 13;
-    scenes[currentScene]->reset();
+    if (key == ' '){
+        currentScene++;
+        currentScene %= 13;
+        scenes[currentScene]->reset();
+    } else {
+        scenes[currentScene]->keyPressed(key);
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
+    
+    scenes[currentScene]->keyReleased(key);
    }
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
+    scenes[currentScene]->mouseMoved(x, y);
     
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
+    scenes[currentScene]->mouseDragged(x, y, button);
     
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
         nav.mousePressed(x,y,button);
-   
+    scenes[currentScene]->mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
+    scenes[currentScene]->mouseReleased(x, y, button);
     
 }
 
@@ -91,6 +101,7 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
+void ofApp::dragEvent(ofDragInfo dragInfo){
+    scenes[currentScene]->dragEvent(dragInfo);
 
 }

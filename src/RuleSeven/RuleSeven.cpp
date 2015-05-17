@@ -1,6 +1,11 @@
 #include "RuleSeven.h"
 #include "ofMain.h"
 
+void RuleSeven::reset(){
+    
+}
+
+
 //--------------------------------------------------------------
 void RuleSeven::setup(){
     salmon.setHsb(0,140,224);

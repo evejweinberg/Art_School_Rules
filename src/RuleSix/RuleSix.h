@@ -13,6 +13,7 @@ class RuleSix : public baseScene, public ofThread{
     void draw();
     void exit();
         void threadedFunction();
+    void reset();
 
 		
         void enable();

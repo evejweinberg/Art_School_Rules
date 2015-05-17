@@ -9,6 +9,7 @@ class RuleOne : public baseScene{
 		void setup();
 		void update();
 		void draw();
+    void reset();
 
         void enable();
         void disable();

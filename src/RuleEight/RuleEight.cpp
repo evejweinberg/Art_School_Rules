@@ -1,5 +1,9 @@
 #include "RuleEight.h"
 
+
+void RuleEight::reset(){
+   
+}
 void RuleEight::drawAnalyze(float xPos, float yPos, float scale){
     
     RuleEightAnalyze.draw(0,0,ofGetWidth(),ofGetHeight());

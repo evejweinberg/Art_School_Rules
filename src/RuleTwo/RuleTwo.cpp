@@ -1,5 +1,11 @@
 #include "RuleTwo.h"
 
+
+void RuleTwo::reset(){
+    
+    
+}
+
 //--------------------------------------------------------------
 void RuleTwo::setup(){
     

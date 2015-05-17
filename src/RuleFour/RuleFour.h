@@ -14,6 +14,7 @@ class RuleFour : public baseScene{
 		void draw();
     void enable();
     void disable();
+    void reset();
 		void keyPressed(int key);
 		void keyReleased(int key);
 		void mouseMoved(int x, int y );

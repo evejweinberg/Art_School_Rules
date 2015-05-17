@@ -1,6 +1,8 @@
 #include "RuleFour.h"
 
-
+void RuleFour::reset(){
+//   allBallsDropping.clear;
+}
 
 //--------------------------------------------------------------
 void RuleFour::setup(){

@@ -1,6 +1,8 @@
 #include "RuleFive.h"
 
+void RuleFive::reset(){
 
+}
 //--------------------------------------------------------------
 void RuleFive::setup(){
     

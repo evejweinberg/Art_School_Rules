@@ -1,7 +1,13 @@
 #include "RuleThree.h"
 
+void RuleThree::reset(){
+    line.clear();
+    
+}
 //--------------------------------------------------------------
 void RuleThree::setup(){
+    
+    line.clear();
     
 
     //----------------------style sheets--------------------
