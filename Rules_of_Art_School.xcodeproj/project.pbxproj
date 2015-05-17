@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E27E2F41B08D73C00432C23 /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E27E2F01B08D73C00432C23 /* baseScene.cpp */; };
-		0E27E2F51B08D73C00432C23 /* Nav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E27E2F21B08D73C00432C23 /* Nav.cpp */; };
-		0E27E2F91B08D74500432C23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E27E2F61B08D74500432C23 /* main.cpp */; };
-		0E27E2FA1B08D74500432C23 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E27E2F71B08D74500432C23 /* ofApp.cpp */; };
 		0E65FA8F1B05369100A9ECE8 /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FA181B05369100A9ECE8 /* ofxCvColorImage.cpp */; };
 		0E65FA901B05369100A9ECE8 /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FA1B1B05369100A9ECE8 /* ofxCvContourFinder.cpp */; };
 		0E65FA911B05369100A9ECE8 /* ofxCvFloatImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FA1D1B05369100A9ECE8 /* ofxCvFloatImage.cpp */; };
@@ -28,6 +24,31 @@
 		0E65FAB41B0536FE00A9ECE8 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FAA91B0536FE00A9ECE8 /* ofxSlider.cpp */; };
 		0E65FAB51B0536FE00A9ECE8 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FAAB1B0536FE00A9ECE8 /* ofxSliderGroup.cpp */; };
 		0E65FAB61B0536FE00A9ECE8 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65FAAD1B0536FE00A9ECE8 /* ofxToggle.cpp */; };
+		0ECB7E021B090DE900844FBD /* About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC01B090DE900844FBD /* About.cpp */; };
+		0ECB7E031B090DE900844FBD /* Extra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC31B090DE900844FBD /* Extra.cpp */; };
+		0ECB7E041B090DE900844FBD /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC51B090DE900844FBD /* baseScene.cpp */; };
+		0ECB7E051B090DE900844FBD /* Extra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DC81B090DE900844FBD /* Extra.cpp */; };
+		0ECB7E061B090DE900844FBD /* Intro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DCB1B090DE900844FBD /* Intro.cpp */; };
+		0ECB7E071B090DE900844FBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DCD1B090DE900844FBD /* main.cpp */; };
+		0ECB7E081B090DE900844FBD /* Nav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DCE1B090DE900844FBD /* Nav.cpp */; };
+		0ECB7E091B090DE900844FBD /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DD01B090DE900844FBD /* ofApp.cpp */; };
+		0ECB7E0A1B090DE900844FBD /* RuleEight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DD31B090DE900844FBD /* RuleEight.cpp */; };
+		0ECB7E0B1B090DE900844FBD /* particleFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DD61B090DE900844FBD /* particleFive.cpp */; };
+		0ECB7E0C1B090DE900844FBD /* RuleFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DD81B090DE900844FBD /* RuleFive.cpp */; };
+		0ECB7E0D1B090DE900844FBD /* RuleFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DDC1B090DE900844FBD /* RuleFour.cpp */; };
+		0ECB7E0E1B090DE900844FBD /* RuleNine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE11B090DE900844FBD /* RuleNine.cpp */; };
+		0ECB7E0F1B090DE900844FBD /* RuleOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE41B090DE900844FBD /* RuleOne.cpp */; };
+		0ECB7E101B090DE900844FBD /* RuleEight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DE81B090DE900844FBD /* RuleEight.cpp */; };
+		0ECB7E111B090DE900844FBD /* RuleSeven.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */; };
+		0ECB7E121B090DE900844FBD /* particleSix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DED1B090DE900844FBD /* particleSix.cpp */; };
+		0ECB7E131B090DE900844FBD /* RuleSix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DEF1B090DE900844FBD /* RuleSix.cpp */; };
+		0ECB7E141B090DE900844FBD /* noiseFieldFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DF21B090DE900844FBD /* noiseFieldFive.cpp */; };
+		0ECB7E151B090DE900844FBD /* RuleTen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DF41B090DE900844FBD /* RuleTen.cpp */; };
+		0ECB7E161B090DE900844FBD /* RuleThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DF71B090DE900844FBD /* RuleThree.cpp */; };
+		0ECB7E171B090DE900844FBD /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DF91B090DE900844FBD /* Student.cpp */; };
+		0ECB7E181B090DE900844FBD /* particleRuleTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DFC1B090DE900844FBD /* particleRuleTwo.cpp */; };
+		0ECB7E191B090DE900844FBD /* RuleTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7DFE1B090DE900844FBD /* RuleTwo.cpp */; };
+		0ECB7E1A1B090DE900844FBD /* springRuleTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB7E001B090DE900844FBD /* springRuleTwo.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -78,26 +99,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E27E2E31B08D6A800432C23 /* About */ = {isa = PBXFileReference; lastKnownFileType = folder; path = About; sourceTree = "<group>"; };
-		0E27E2E41B08D6B400432C23 /* Intro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Intro; sourceTree = "<group>"; };
-		0E27E2E51B08D6D200432C23 /* RuleOne */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleOne; sourceTree = "<group>"; };
-		0E27E2E61B08D6DD00432C23 /* RuleSeven */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleSeven; sourceTree = "<group>"; };
-		0E27E2E71B08D6DD00432C23 /* RuleSix */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleSix; sourceTree = "<group>"; };
-		0E27E2E81B08D6DD00432C23 /* RuleTen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleTen; sourceTree = "<group>"; };
-		0E27E2E91B08D6DD00432C23 /* RuleThree */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleThree; sourceTree = "<group>"; };
-		0E27E2EA1B08D6DD00432C23 /* RuleTwo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleTwo; sourceTree = "<group>"; };
-		0E27E2EB1B08D6F400432C23 /* RuleFour */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleFour; sourceTree = "<group>"; };
-		0E27E2EC1B08D6FD00432C23 /* RuleFive */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleFive; sourceTree = "<group>"; };
-		0E27E2ED1B08D71500432C23 /* RuleEight */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleEight; sourceTree = "<group>"; };
-		0E27E2EE1B08D71E00432C23 /* RuleNine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RuleNine; sourceTree = "<group>"; };
-		0E27E2EF1B08D73300432C23 /* Extra */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extra; sourceTree = "<group>"; };
-		0E27E2F01B08D73C00432C23 /* baseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseScene.cpp; sourceTree = "<group>"; };
-		0E27E2F11B08D73C00432C23 /* baseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseScene.h; sourceTree = "<group>"; };
-		0E27E2F21B08D73C00432C23 /* Nav.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nav.cpp; sourceTree = "<group>"; };
-		0E27E2F31B08D73C00432C23 /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
-		0E27E2F61B08D74500432C23 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0E27E2F71B08D74500432C23 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
-		0E27E2F81B08D74500432C23 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
 		0E65FA171B05369100A9ECE8 /* ofxCvBlob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCvBlob.h; sourceTree = "<group>"; };
 		0E65FA181B05369100A9ECE8 /* ofxCvColorImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvColorImage.cpp; sourceTree = "<group>"; };
 		0E65FA191B05369100A9ECE8 /* ofxCvColorImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCvColorImage.h; sourceTree = "<group>"; };
@@ -217,6 +218,59 @@
 		0E65FAAC1B0536FE00A9ECE8 /* ofxSliderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
 		0E65FAAD1B0536FE00A9ECE8 /* ofxToggle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
 		0E65FAAE1B0536FE00A9ECE8 /* ofxToggle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
+		0ECB7DBE1B090DE900844FBD /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		0ECB7DC01B090DE900844FBD /* About.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = About.cpp; sourceTree = "<group>"; };
+		0ECB7DC11B090DE900844FBD /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		0ECB7DC31B090DE900844FBD /* Extra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extra.cpp; sourceTree = "<group>"; };
+		0ECB7DC41B090DE900844FBD /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
+		0ECB7DC51B090DE900844FBD /* baseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseScene.cpp; sourceTree = "<group>"; };
+		0ECB7DC61B090DE900844FBD /* baseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseScene.h; sourceTree = "<group>"; };
+		0ECB7DC81B090DE900844FBD /* Extra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extra.cpp; sourceTree = "<group>"; };
+		0ECB7DC91B090DE900844FBD /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
+		0ECB7DCB1B090DE900844FBD /* Intro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Intro.cpp; sourceTree = "<group>"; };
+		0ECB7DCC1B090DE900844FBD /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		0ECB7DCD1B090DE900844FBD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0ECB7DCE1B090DE900844FBD /* Nav.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nav.cpp; sourceTree = "<group>"; };
+		0ECB7DCF1B090DE900844FBD /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
+		0ECB7DD01B090DE900844FBD /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		0ECB7DD11B090DE900844FBD /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		0ECB7DD31B090DE900844FBD /* RuleEight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleEight.cpp; sourceTree = "<group>"; };
+		0ECB7DD41B090DE900844FBD /* RuleEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEight.h; sourceTree = "<group>"; };
+		0ECB7DD61B090DE900844FBD /* particleFive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particleFive.cpp; sourceTree = "<group>"; };
+		0ECB7DD71B090DE900844FBD /* particleFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particleFive.h; sourceTree = "<group>"; };
+		0ECB7DD81B090DE900844FBD /* RuleFive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleFive.cpp; sourceTree = "<group>"; };
+		0ECB7DD91B090DE900844FBD /* RuleFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleFive.h; sourceTree = "<group>"; };
+		0ECB7DDB1B090DE900844FBD /* BallDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallDrop.h; sourceTree = "<group>"; };
+		0ECB7DDC1B090DE900844FBD /* RuleFour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleFour.cpp; sourceTree = "<group>"; };
+		0ECB7DDD1B090DE900844FBD /* RuleFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleFour.h; sourceTree = "<group>"; };
+		0ECB7DDF1B090DE900844FBD /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		0ECB7DE01B090DE900844FBD /* Mate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mate.h; sourceTree = "<group>"; };
+		0ECB7DE11B090DE900844FBD /* RuleNine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleNine.cpp; sourceTree = "<group>"; };
+		0ECB7DE21B090DE900844FBD /* RuleNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleNine.h; sourceTree = "<group>"; };
+		0ECB7DE41B090DE900844FBD /* RuleOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleOne.cpp; sourceTree = "<group>"; };
+		0ECB7DE51B090DE900844FBD /* RuleOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleOne.h; sourceTree = "<group>"; };
+		0ECB7DE81B090DE900844FBD /* RuleEight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleEight.cpp; sourceTree = "<group>"; };
+		0ECB7DE91B090DE900844FBD /* RuleEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEight.h; sourceTree = "<group>"; };
+		0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleSeven.cpp; sourceTree = "<group>"; };
+		0ECB7DEB1B090DE900844FBD /* RuleSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleSeven.h; sourceTree = "<group>"; };
+		0ECB7DED1B090DE900844FBD /* particleSix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particleSix.cpp; sourceTree = "<group>"; };
+		0ECB7DEE1B090DE900844FBD /* particleSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particleSix.h; sourceTree = "<group>"; };
+		0ECB7DEF1B090DE900844FBD /* RuleSix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleSix.cpp; sourceTree = "<group>"; };
+		0ECB7DF01B090DE900844FBD /* RuleSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleSix.h; sourceTree = "<group>"; };
+		0ECB7DF21B090DE900844FBD /* noiseFieldFive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noiseFieldFive.cpp; sourceTree = "<group>"; };
+		0ECB7DF31B090DE900844FBD /* noiseFieldFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noiseFieldFive.h; sourceTree = "<group>"; };
+		0ECB7DF41B090DE900844FBD /* RuleTen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleTen.cpp; sourceTree = "<group>"; };
+		0ECB7DF51B090DE900844FBD /* RuleTen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTen.h; sourceTree = "<group>"; };
+		0ECB7DF71B090DE900844FBD /* RuleThree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleThree.cpp; sourceTree = "<group>"; };
+		0ECB7DF81B090DE900844FBD /* RuleThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleThree.h; sourceTree = "<group>"; };
+		0ECB7DF91B090DE900844FBD /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		0ECB7DFA1B090DE900844FBD /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0ECB7DFC1B090DE900844FBD /* particleRuleTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particleRuleTwo.cpp; sourceTree = "<group>"; };
+		0ECB7DFD1B090DE900844FBD /* particleRuleTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particleRuleTwo.h; sourceTree = "<group>"; };
+		0ECB7DFE1B090DE900844FBD /* RuleTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleTwo.cpp; sourceTree = "<group>"; };
+		0ECB7DFF1B090DE900844FBD /* RuleTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleTwo.h; sourceTree = "<group>"; };
+		0ECB7E001B090DE900844FBD /* springRuleTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = springRuleTwo.cpp; sourceTree = "<group>"; };
+		0ECB7E011B090DE900844FBD /* springRuleTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = springRuleTwo.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -595,6 +649,158 @@
 			path = ../../addons/ofxGui/src;
 			sourceTree = "<group>";
 		};
+		0ECB7DBF1B090DE900844FBD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DC01B090DE900844FBD /* About.cpp */,
+				0ECB7DC11B090DE900844FBD /* About.h */,
+				0ECB7DC21B090DE900844FBD /* Extra */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		0ECB7DC21B090DE900844FBD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DC31B090DE900844FBD /* Extra.cpp */,
+				0ECB7DC41B090DE900844FBD /* Extra.h */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		0ECB7DC71B090DE900844FBD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DC81B090DE900844FBD /* Extra.cpp */,
+				0ECB7DC91B090DE900844FBD /* Extra.h */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		0ECB7DCA1B090DE900844FBD /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DCB1B090DE900844FBD /* Intro.cpp */,
+				0ECB7DCC1B090DE900844FBD /* Intro.h */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		0ECB7DD21B090DE900844FBD /* RuleEight */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DD31B090DE900844FBD /* RuleEight.cpp */,
+				0ECB7DD41B090DE900844FBD /* RuleEight.h */,
+			);
+			path = RuleEight;
+			sourceTree = "<group>";
+		};
+		0ECB7DD51B090DE900844FBD /* RuleFive */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DD61B090DE900844FBD /* particleFive.cpp */,
+				0ECB7DD71B090DE900844FBD /* particleFive.h */,
+				0ECB7DD81B090DE900844FBD /* RuleFive.cpp */,
+				0ECB7DD91B090DE900844FBD /* RuleFive.h */,
+			);
+			path = RuleFive;
+			sourceTree = "<group>";
+		};
+		0ECB7DDA1B090DE900844FBD /* RuleFour */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DDB1B090DE900844FBD /* BallDrop.h */,
+				0ECB7DDC1B090DE900844FBD /* RuleFour.cpp */,
+				0ECB7DDD1B090DE900844FBD /* RuleFour.h */,
+			);
+			path = RuleFour;
+			sourceTree = "<group>";
+		};
+		0ECB7DDE1B090DE900844FBD /* RuleNine */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DDF1B090DE900844FBD /* Cloud.h */,
+				0ECB7DE01B090DE900844FBD /* Mate.h */,
+				0ECB7DE11B090DE900844FBD /* RuleNine.cpp */,
+				0ECB7DE21B090DE900844FBD /* RuleNine.h */,
+			);
+			path = RuleNine;
+			sourceTree = "<group>";
+		};
+		0ECB7DE31B090DE900844FBD /* RuleOne */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DE41B090DE900844FBD /* RuleOne.cpp */,
+				0ECB7DE51B090DE900844FBD /* RuleOne.h */,
+			);
+			path = RuleOne;
+			sourceTree = "<group>";
+		};
+		0ECB7DE61B090DE900844FBD /* RuleSeven */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DE71B090DE900844FBD /* RuleEight */,
+				0ECB7DEA1B090DE900844FBD /* RuleSeven.cpp */,
+				0ECB7DEB1B090DE900844FBD /* RuleSeven.h */,
+			);
+			path = RuleSeven;
+			sourceTree = "<group>";
+		};
+		0ECB7DE71B090DE900844FBD /* RuleEight */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DE81B090DE900844FBD /* RuleEight.cpp */,
+				0ECB7DE91B090DE900844FBD /* RuleEight.h */,
+			);
+			path = RuleEight;
+			sourceTree = "<group>";
+		};
+		0ECB7DEC1B090DE900844FBD /* RuleSix */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DED1B090DE900844FBD /* particleSix.cpp */,
+				0ECB7DEE1B090DE900844FBD /* particleSix.h */,
+				0ECB7DEF1B090DE900844FBD /* RuleSix.cpp */,
+				0ECB7DF01B090DE900844FBD /* RuleSix.h */,
+			);
+			path = RuleSix;
+			sourceTree = "<group>";
+		};
+		0ECB7DF11B090DE900844FBD /* RuleTen */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DF21B090DE900844FBD /* noiseFieldFive.cpp */,
+				0ECB7DF31B090DE900844FBD /* noiseFieldFive.h */,
+				0ECB7DF41B090DE900844FBD /* RuleTen.cpp */,
+				0ECB7DF51B090DE900844FBD /* RuleTen.h */,
+			);
+			path = RuleTen;
+			sourceTree = "<group>";
+		};
+		0ECB7DF61B090DE900844FBD /* RuleThree */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DF71B090DE900844FBD /* RuleThree.cpp */,
+				0ECB7DF81B090DE900844FBD /* RuleThree.h */,
+				0ECB7DF91B090DE900844FBD /* Student.cpp */,
+				0ECB7DFA1B090DE900844FBD /* Student.h */,
+			);
+			path = RuleThree;
+			sourceTree = "<group>";
+		};
+		0ECB7DFB1B090DE900844FBD /* RuleTwo */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB7DFC1B090DE900844FBD /* particleRuleTwo.cpp */,
+				0ECB7DFD1B090DE900844FBD /* particleRuleTwo.h */,
+				0ECB7DFE1B090DE900844FBD /* RuleTwo.cpp */,
+				0ECB7DFF1B090DE900844FBD /* RuleTwo.h */,
+				0ECB7E001B090DE900844FBD /* springRuleTwo.cpp */,
+				0ECB7E011B090DE900844FBD /* springRuleTwo.h */,
+			);
+			path = RuleTwo;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,26 +873,27 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				0E27E2F61B08D74500432C23 /* main.cpp */,
-				0E27E2F71B08D74500432C23 /* ofApp.cpp */,
-				0E27E2F81B08D74500432C23 /* ofApp.h */,
-				0E27E2E41B08D6B400432C23 /* Intro */,
-				0E27E2E51B08D6D200432C23 /* RuleOne */,
-				0E27E2EA1B08D6DD00432C23 /* RuleTwo */,
-				0E27E2E91B08D6DD00432C23 /* RuleThree */,
-				0E27E2EB1B08D6F400432C23 /* RuleFour */,
-				0E27E2EC1B08D6FD00432C23 /* RuleFive */,
-				0E27E2E71B08D6DD00432C23 /* RuleSix */,
-				0E27E2E61B08D6DD00432C23 /* RuleSeven */,
-				0E27E2ED1B08D71500432C23 /* RuleEight */,
-				0E27E2EE1B08D71E00432C23 /* RuleNine */,
-				0E27E2E81B08D6DD00432C23 /* RuleTen */,
-				0E27E2E31B08D6A800432C23 /* About */,
-				0E27E2EF1B08D73300432C23 /* Extra */,
-				0E27E2F01B08D73C00432C23 /* baseScene.cpp */,
-				0E27E2F11B08D73C00432C23 /* baseScene.h */,
-				0E27E2F21B08D73C00432C23 /* Nav.cpp */,
-				0E27E2F31B08D73C00432C23 /* Nav.h */,
+				0ECB7DBE1B090DE900844FBD /* .DS_Store */,
+				0ECB7DCD1B090DE900844FBD /* main.cpp */,
+				0ECB7DD01B090DE900844FBD /* ofApp.cpp */,
+				0ECB7DD11B090DE900844FBD /* ofApp.h */,
+				0ECB7DBF1B090DE900844FBD /* About */,
+				0ECB7DC51B090DE900844FBD /* baseScene.cpp */,
+				0ECB7DC61B090DE900844FBD /* baseScene.h */,
+				0ECB7DC71B090DE900844FBD /* Extra */,
+				0ECB7DCA1B090DE900844FBD /* Intro */,
+				0ECB7DCE1B090DE900844FBD /* Nav.cpp */,
+				0ECB7DCF1B090DE900844FBD /* Nav.h */,
+				0ECB7DD21B090DE900844FBD /* RuleEight */,
+				0ECB7DD51B090DE900844FBD /* RuleFive */,
+				0ECB7DDA1B090DE900844FBD /* RuleFour */,
+				0ECB7DDE1B090DE900844FBD /* RuleNine */,
+				0ECB7DE31B090DE900844FBD /* RuleOne */,
+				0ECB7DE61B090DE900844FBD /* RuleSeven */,
+				0ECB7DEC1B090DE900844FBD /* RuleSix */,
+				0ECB7DF11B090DE900844FBD /* RuleTen */,
+				0ECB7DF61B090DE900844FBD /* RuleThree */,
+				0ECB7DFB1B090DE900844FBD /* RuleTwo */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -787,24 +994,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECB7E061B090DE900844FBD /* Intro.cpp in Sources */,
 				0E65FA8F1B05369100A9ECE8 /* ofxCvColorImage.cpp in Sources */,
 				0E65FA941B05369100A9ECE8 /* ofxCvImage.cpp in Sources */,
 				0E65FA911B05369100A9ECE8 /* ofxCvFloatImage.cpp in Sources */,
+				0ECB7E121B090DE900844FBD /* particleSix.cpp in Sources */,
+				0ECB7E071B090DE900844FBD /* main.cpp in Sources */,
 				0E65FAB51B0536FE00A9ECE8 /* ofxSliderGroup.cpp in Sources */,
+				0ECB7E161B090DE900844FBD /* RuleThree.cpp in Sources */,
 				0E65FAB61B0536FE00A9ECE8 /* ofxToggle.cpp in Sources */,
 				0E65FAAF1B0536FE00A9ECE8 /* ofxBaseGui.cpp in Sources */,
-				0E27E2F41B08D73C00432C23 /* baseScene.cpp in Sources */,
 				0E65FAB01B0536FE00A9ECE8 /* ofxButton.cpp in Sources */,
+				0ECB7E041B090DE900844FBD /* baseScene.cpp in Sources */,
+				0ECB7E0A1B090DE900844FBD /* RuleEight.cpp in Sources */,
 				0E65FA9B1B05369E00A9ECE8 /* ofxImageSequence.cpp in Sources */,
+				0ECB7E191B090DE900844FBD /* RuleTwo.cpp in Sources */,
+				0ECB7E0F1B090DE900844FBD /* RuleOne.cpp in Sources */,
+				0ECB7E1A1B090DE900844FBD /* springRuleTwo.cpp in Sources */,
+				0ECB7E131B090DE900844FBD /* RuleSix.cpp in Sources */,
+				0ECB7E151B090DE900844FBD /* RuleTen.cpp in Sources */,
+				0ECB7E171B090DE900844FBD /* Student.cpp in Sources */,
 				0E65FA931B05369100A9ECE8 /* ofxCvHaarFinder.cpp in Sources */,
 				0E65FA901B05369100A9ECE8 /* ofxCvContourFinder.cpp in Sources */,
+				0ECB7E021B090DE900844FBD /* About.cpp in Sources */,
+				0ECB7E0B1B090DE900844FBD /* particleFive.cpp in Sources */,
+				0ECB7E101B090DE900844FBD /* RuleEight.cpp in Sources */,
 				0E65FA921B05369100A9ECE8 /* ofxCvGrayscaleImage.cpp in Sources */,
 				0E65FA951B05369100A9ECE8 /* ofxCvShortImage.cpp in Sources */,
-				0E27E2F91B08D74500432C23 /* main.cpp in Sources */,
+				0ECB7E091B090DE900844FBD /* ofApp.cpp in Sources */,
+				0ECB7E0C1B090DE900844FBD /* RuleFive.cpp in Sources */,
+				0ECB7E051B090DE900844FBD /* Extra.cpp in Sources */,
+				0ECB7E141B090DE900844FBD /* noiseFieldFive.cpp in Sources */,
+				0ECB7E111B090DE900844FBD /* RuleSeven.cpp in Sources */,
+				0ECB7E081B090DE900844FBD /* Nav.cpp in Sources */,
 				0E65FAB31B0536FE00A9ECE8 /* ofxPanel.cpp in Sources */,
+				0ECB7E181B090DE900844FBD /* particleRuleTwo.cpp in Sources */,
+				0ECB7E031B090DE900844FBD /* Extra.cpp in Sources */,
 				0E65FAB11B0536FE00A9ECE8 /* ofxGuiGroup.cpp in Sources */,
-				0E27E2FA1B08D74500432C23 /* ofApp.cpp in Sources */,
-				0E27E2F51B08D73C00432C23 /* Nav.cpp in Sources */,
+				0ECB7E0E1B090DE900844FBD /* RuleNine.cpp in Sources */,
+				0ECB7E0D1B090DE900844FBD /* RuleFour.cpp in Sources */,
 				0E65FAB41B0536FE00A9ECE8 /* ofxSlider.cpp in Sources */,
 				0E65FAB21B0536FE00A9ECE8 /* ofxLabel.cpp in Sources */,
 			);
