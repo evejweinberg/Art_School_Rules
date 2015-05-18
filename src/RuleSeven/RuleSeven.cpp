@@ -2,7 +2,29 @@
 #include "ofMain.h"
 
 void RuleSeven::reset(){
-    
+    isRunning = true;
+    videoone.play();
+    videotwo.play();
+    videothree.play();
+    videofour.play();
+    videofive.play();
+    videosix.play();
+    videoseven.play();
+    videoeight.play();
+}
+
+//add stop to virtual base class for void stop()
+
+void RuleSeven::stop(){
+    isRunning = false;
+    videoone.stop();
+    videotwo.stop();
+    videothree.stop();
+    videofour.stop();
+    videofive.stop();
+    videosix.stop();
+    videoseven.stop();
+    videoeight.stop();
 }
 
 
@@ -68,7 +90,7 @@ void RuleSeven::setup(){
     whoeventually.loadImage("whoeventually2.png");
     
  
-
+    isRunning = false;
 
 
 }
@@ -141,8 +163,9 @@ void RuleSeven::draw(){
     
     ofPushMatrix();
     ofTranslate(-100,0);
-    ofSetColor(brown);
-    IntroBlack.drawString(ThereisOnly, ofGetMouseX()+100,ofGetMouseY());
+//    ofSetColor(brown);
+     ofSetColor(98,196,215);
+    IntroBlack.drawString(ThereisOnly, ofGetMouseX()+100,ofGetMouseY()-25);
    IntroBlack.drawString(RuleIs, ofGetMouseX()+100,ofGetMouseY()+25);
     IntroBlackLrg.drawString(WORK, ofGetMouseX()+100,ofGetMouseY()+100);
    

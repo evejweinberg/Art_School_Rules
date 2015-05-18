@@ -55,6 +55,7 @@ class RuleSeven : public baseScene{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+        void stop ();
     
     
     ofVideoPlayer scribbles;
@@ -79,7 +80,7 @@ class RuleSeven : public baseScene{
     ofImage allofthetime;
     ofImage itspeople, tosomething, whoeventually, itwilllead;
     
-
+    bool isRunning;
  
     
     timeStroke TS;

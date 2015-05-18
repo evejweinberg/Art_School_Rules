@@ -9,6 +9,10 @@
 #include "baseScene.h"
 
 
+void baseScene::stop(){
+    
+};
+
 //--------------------------------------------------------------
 void baseScene::setup(){
     

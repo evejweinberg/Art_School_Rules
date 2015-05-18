@@ -3,6 +3,10 @@
 #include "ofMain.h"
 #include "baseScene.h"
 
+namespace test {
+    void fun();
+}
+
 class RuleOne : public baseScene{
 
 	public:
@@ -45,3 +49,6 @@ class RuleOne : public baseScene{
     float intalpha, letterheight, moveZach;
 		
 };
+
+
+

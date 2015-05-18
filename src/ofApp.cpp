@@ -1,7 +1,11 @@
 #include "ofApp.h"
 
 
+void ofApp::stop(){
+    scenes[currentScene]->stop();
 
+    
+};
 //--------------------------------------------------------------
 void ofApp::setup(){
     

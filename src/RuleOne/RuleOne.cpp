@@ -1,7 +1,7 @@
 #include "RuleOne.h"
 
 void RuleOne::reset(){
-     moveZach = 400;
+     moveZach = 220;
     
 }
 
@@ -16,7 +16,7 @@ void RuleOne::setup(){
     IntroBlack.loadFont("Intro Black.otf", 187); //font size
     Zach.loadImage("Zach.png");
     RuleOneeverything.loadImage("RuleOneeverything.png");
-    Inst.loadImage("Inst_RuleOne.png");
+    Inst.loadImage("RuleOne_Inst.png");
   
     
     salmon.setHsb(0,140,224);
@@ -79,7 +79,7 @@ void RuleOne::draw(){
 //----------draw letters-----------------
     moveup = 20;
     ofSetColor(255);
-    Inst.draw(430,ofGetHeight()-70);
+    Inst.draw(430,ofGetHeight()-60);
     
     letterheight = 380- moveup;
     float intalphaMapped = ofMap(moveZach, 20, ofGetWidth()-400, 0, 255);
@@ -103,7 +103,7 @@ void RuleOne::draw(){
         moveZach = ofGetMouseX();
          }
 
-    Zach.draw(moveZach-220,434,484,430);
+    Zach.draw(moveZach-220,434,484/1.1,430/1.1);
 
    
 
