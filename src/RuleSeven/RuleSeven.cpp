@@ -199,7 +199,7 @@ void RuleSeven::keyPressed(int key){
     }
     
     
-    if (key == '+'){
+    if (key == '+' || '='){
         videoone.setSpeed(videoone.getSpeed()+0.3);
         videotwo.setSpeed(videotwo.getSpeed()+0.3);
         videothree.setSpeed(videothree.getSpeed()+0.3);

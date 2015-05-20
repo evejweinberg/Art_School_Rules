@@ -38,6 +38,13 @@ void ofApp::update(){
    scenes[currentScene]->update();
     
     nav.update();
+    
+
+    
+//    if (ofGetElapsedTimef() > 5) {
+//       system("open /Volumes/3TB\\ Storage\\ Drive/of_v0.8.4_osx_release/apps/Art_School_Rules/bin/Rules_of_Art_SchoolDebug.app &");
+//         ofExit();
+//    }
 
 }
 
