@@ -18,7 +18,7 @@ class Student{
 //  void draw(float _x, float _y, int _dim);
     void moveTowards( float xTarget, float yTarget);
 
-    
+    void setupWithoutLoadingImage(float _x, float _y);
     
     float quadrant;
     float image;

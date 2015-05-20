@@ -4,6 +4,25 @@
 Student::Student(){
 }
 
+
+void Student::setupWithoutLoadingImage(float _x, float _y){
+    
+    varSpeedX = ofRandom(.97,.999);
+    
+    
+    x = _x; //why do we do this?
+    y = _y;
+    
+    speedX = ofRandom(-1,1); //look below for where we use this
+    speedY = ofRandom(-1,1);
+    rotation = ofRandom(-10,10);
+    color.setHsb(ofRandom(255),ofRandom(100,110),ofRandom(200,220));
+    
+    varDistance = ofRandom(300,900);
+    
+    
+}
+
 void Student::setup(float _x, float _y, string fileName){
     
     varSpeedX = ofRandom(.97,.999);

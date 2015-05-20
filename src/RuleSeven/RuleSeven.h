@@ -58,7 +58,7 @@ class RuleSeven : public baseScene{
         void stop ();
     
     
-    ofVideoPlayer scribbles;
+    
     ofVideoPlayer videoone, videotwo, videothree, videofour, videofive, videosix, videoseven, videoeight;
     
     ofTrueTypeFont 	IntroBlack;

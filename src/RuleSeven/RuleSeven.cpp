@@ -11,6 +11,11 @@ void RuleSeven::reset(){
     videosix.play();
     videoseven.play();
     videoeight.play();
+    
+    strokes.clear();
+//    TS.clear();
+    
+    
 }
 
 //add stop to virtual base class for void stop()
@@ -193,13 +198,13 @@ void RuleSeven::draw(){
 //--------------------------------------------------------------
 void RuleSeven::keyPressed(int key){
     
-    if (key == ' '){
+    if (key == 'c'){
         strokes.clear();
         TS.pts.clear();
     }
     
     
-    if (key == '+' || '='){
+    if (key == '+'){
         videoone.setSpeed(videoone.getSpeed()+0.3);
         videotwo.setSpeed(videotwo.getSpeed()+0.3);
         videothree.setSpeed(videothree.getSpeed()+0.3);
