@@ -47,7 +47,7 @@ void ofApp::draw(){
     scenes[currentScene]->draw();
     ofPopStyle();
     nav.draw();
-    
+    cout << ofGetFrameRate() << endl;
 }
 
 void ofApp::enableScene(int index) {

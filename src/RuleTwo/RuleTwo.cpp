@@ -9,10 +9,7 @@ void RuleTwo::reset(){
     
        particleRuleTwos[0].setInitialCondition(850,700,0,0);
 
-//    
-//    particleRuleTwo myparticleRuleTwo;
-//    myparticleRuleTwo.setInitialCondition(850,700,0,0);
-//    //why doenst this work?
+
     
     
     

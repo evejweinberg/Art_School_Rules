@@ -16,7 +16,7 @@ void RuleOne::setup(){
     IntroBlack.loadFont("Intro Black.otf", 187); //font size
     Zach.loadImage("Zach.png");
     RuleOneeverything.loadImage("RuleOneeverything.png");
-    Inst.loadImage("RuleOne_Inst.png");
+    Inst.loadImage("RuleOne_Inst_Slide.png");
   
     
     salmon.setHsb(0,140,224);
@@ -79,7 +79,7 @@ void RuleOne::draw(){
 //----------draw letters-----------------
     moveup = 20;
     ofSetColor(255);
-    Inst.draw(430,ofGetHeight()-60);
+    Inst.draw(540,ofGetHeight()-60);
     
     letterheight = 380- moveup;
     float intalphaMapped = ofMap(moveZach, 20, ofGetWidth()-400, 0, 255);

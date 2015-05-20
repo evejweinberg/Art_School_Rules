@@ -137,14 +137,16 @@ void RuleSeven::draw(){
     tosomething.draw(410,365,368/2,270/2);
     whoeventually.draw(715,570,530/2.05,392/2.05);
 
+    int vidwidth = 300;
+    int vidheight = 200;
     ofSetColor(255);
     Inst.draw(500,ofGetHeight()-115);
-    videoone.draw(360,110,330,200); //top left
-    videosix.draw(1000,110,330,200); //top right
-    videofive.draw(40,330,330,200); //midleft
-    videothree.draw(680,330,330,200); //middle right
-    videoseven.draw(360,550,330,200); //bottom left
-    videofour.draw(1000,550,330,200); //bottom right
+    videoone.draw(360,110,vidwidth,vidheight); //top left
+    videosix.draw(1000,110,vidwidth,vidheight); //top right
+    videofive.draw(40,330,vidwidth,vidheight); //midleft
+    videothree.draw(680,330,vidwidth,vidheight); //middle right
+    videoseven.draw(360,550,vidwidth,vidheight); //bottom left
+    videofour.draw(1000,550,vidwidth,vidheight); //bottom right
     ofPopMatrix();
 
     
@@ -162,12 +164,12 @@ void RuleSeven::draw(){
     float scale =  1;
     
     ofPushMatrix();
-    ofTranslate(-100,0);
+    ofTranslate(-50,60);
 //    ofSetColor(brown);
      ofSetColor(98,196,215);
-    IntroBlack.drawString(ThereisOnly, ofGetMouseX()+100,ofGetMouseY()-25);
-   IntroBlack.drawString(RuleIs, ofGetMouseX()+100,ofGetMouseY()+25);
-    IntroBlackLrg.drawString(WORK, ofGetMouseX()+100,ofGetMouseY()+100);
+    IntroBlack.drawString(ThereisOnly, ofGetMouseX()-120,ofGetMouseY()-125);
+   IntroBlack.drawString(RuleIs, ofGetMouseX()-100,ofGetMouseY()-72);
+    IntroBlackLrg.drawString(WORK, ofGetMouseX()-100,ofGetMouseY());
    
     ofPopMatrix();
     

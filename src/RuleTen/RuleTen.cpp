@@ -18,8 +18,8 @@ void RuleTen::reset(){
         radius[i].set("Radius Size", ofRandom(20,200), 20, 300);
         amplitude[i].set("Amplitude",0.01f, 0.01f, 0.2f);
         peaks[i].set("Number of Peaks",50, 0, 100);
-        noiseModFactor[i].set("Noise", 0.0, 0.0, 5.0);
-        velocity[i].set("Velocity", 0.1f, 0.01f, 1.0f);
+        noiseModFactor[i].set("Animation", 0.0, 0.0, 5.0);
+        velocity[i].set("Rotation Speed", 0.1f, 0.01f, 1.0f);
         LineWeight[i].set("Line Weight", 2, 2, 20);
             }
 
